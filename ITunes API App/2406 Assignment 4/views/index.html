@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Playlist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="playlist_div">
+            <h2>Playlist</h2>
+            <table id="playlist_table">
+                <thead>
+                    <tr>
+                      <th>Move Up</th>
+                      <th>Move Down</th>
+                      <th>Remove</th>
+                      <th>Song Title</th>
+                      <th>Artist</th>
+                      <th>Artwork</th>
+                    </tr>
+                  </thead>
+                  
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="wrapper">
+            <label for="songTitleTextField">Enter Song Title:</label>
+            <input type="text" id="songTitleTextField" />
+            <button id="submit_button">Submit</button>
+        </div>
+        <div id="songs_div">
+            <h2 id="search_results_heading">Songs matching: <span id="song_title"></span></h2>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
